@@ -1,0 +1,42 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Project specific datasets and models (huge files)
+raw-dataset/
+final-dataset/
+models/
+output/
+logs/
+src/logs/
+
+# Secrets and credentials
+.env
+.msc
+.mv
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# UI and temp files
+webui_output.wav
+._____temp/
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# IDE files
+.idea/
+.vscode/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+build_info.json
